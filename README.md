@@ -15,7 +15,7 @@ efficiency. Through comments will be much appreciated.
 
 Requirements :-
 ------------
-Sensor:
+#### Sensor:
 * The app should sample accelerometer at 20 Hz (every 50 ms).
 
 #### The app should calculate the following features:
@@ -24,6 +24,6 @@ Sensor:
 * Number of zerocrossings (when a measured value switches from positive to negative and vice versa) since the app start.
 * The features should be calculated separately for the X, Y and Z direction of an accelerometer measurement.
 
-### GPS:
+#### GPS:
 * Assume that the app will be in the foreground at all times. Unit of measure is in meters. You can make it as accurate as you'd like. Bonus points for more accurate results.
 * The computed features should be made visible in the app. It is more important to have readable, working and correct code than it is to have a fancy UI.
