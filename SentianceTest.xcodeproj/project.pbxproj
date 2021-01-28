@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180CE373259111E500EE3F96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CE372259111E500EE3F96 /* AppDelegate.m */; };
+		180CE376259111E500EE3F96 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CE375259111E500EE3F96 /* SceneDelegate.m */; };
+		180CE379259111E500EE3F96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CE378259111E500EE3F96 /* ViewController.m */; };
+		180CE37C259111E500EE3F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CE37A259111E500EE3F96 /* Main.storyboard */; };
+		180CE37F259111E500EE3F96 /* SentianceTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 180CE37D259111E500EE3F96 /* SentianceTest.xcdatamodeld */; };
+		180CE381259111E700EE3F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180CE380259111E700EE3F96 /* Assets.xcassets */; };
+		180CE384259111E700EE3F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CE382259111E700EE3F96 /* LaunchScreen.storyboard */; };
+		180CE387259111E700EE3F96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CE386259111E700EE3F96 /* main.m */; };
+		180CE391259111E800EE3F96 /* SentianceTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CE390259111E800EE3F96 /* SentianceTestTests.m */; };
+		180CE39C259111E800EE3F96 /* SentianceTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180CE39B259111E800EE3F96 /* SentianceTestUITests.m */; };
+		180CE3B7259191F100EE3F96 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180CE3B6259191F100EE3F96 /* CoreMotion.framework */; };
+		180CE3C52591B92900EE3F96 /* GivePermissionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180CE3C42591B92900EE3F96 /* GivePermissionView.xib */; };
+		1864B6E62591F19A00B17FF6 /* SensorStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1864B6E52591F19A00B17FF6 /* SensorStatistics.m */; };
+		188E50F22591BA3D00AE7737 /* GivePermissionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188E50F12591BA3D00AE7737 /* GivePermissionView.m */; };
+		18E52E012592419600429430 /* StatisticsCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E52E002592419600429430 /* StatisticsCalculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		180CE38D259111E800EE3F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180CE366259111E400EE3F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180CE36D259111E400EE3F96;
+			remoteInfo = SentianceTest;
+		};
+		180CE398259111E800EE3F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180CE366259111E400EE3F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180CE36D259111E400EE3F96;
+			remoteInfo = SentianceTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180CE36E259111E400EE3F96 /* SentianceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SentianceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180CE371259111E400EE3F96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180CE372259111E500EE3F96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180CE374259111E500EE3F96 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		180CE375259111E500EE3F96 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		180CE377259111E500EE3F96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180CE378259111E500EE3F96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		180CE37B259111E500EE3F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180CE37E259111E500EE3F96 /* SentianceTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SentianceTest.xcdatamodel; sourceTree = "<group>"; };
+		180CE380259111E700EE3F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180CE383259111E700EE3F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180CE385259111E700EE3F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180CE386259111E700EE3F96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180CE38C259111E800EE3F96 /* SentianceTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentianceTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180CE390259111E800EE3F96 /* SentianceTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SentianceTestTests.m; sourceTree = "<group>"; };
+		180CE392259111E800EE3F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180CE397259111E800EE3F96 /* SentianceTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentianceTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180CE39B259111E800EE3F96 /* SentianceTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SentianceTestUITests.m; sourceTree = "<group>"; };
+		180CE39D259111E800EE3F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180CE3B6259191F100EE3F96 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		180CE3C42591B92900EE3F96 /* GivePermissionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GivePermissionView.xib; sourceTree = "<group>"; };
+		1864B6E42591F18C00B17FF6 /* SensorStatistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorStatistics.h; sourceTree = "<group>"; };
+		1864B6E52591F19A00B17FF6 /* SensorStatistics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensorStatistics.m; sourceTree = "<group>"; };
+		188E50F12591BA3D00AE7737 /* GivePermissionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GivePermissionView.m; sourceTree = "<group>"; };
+		188E50F62591BA4600AE7737 /* GivePermissionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GivePermissionView.h; sourceTree = "<group>"; };
+		18E52E002592419600429430 /* StatisticsCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatisticsCalculator.m; sourceTree = "<group>"; };
+		18E52E08259241A000429430 /* StatisticsCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatisticsCalculator.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180CE36B259111E400EE3F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CE3B7259191F100EE3F96 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CE389259111E800EE3F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CE394259111E800EE3F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180CE365259111E400EE3F96 = {
+			isa = PBXGroup;
+			children = (
+				180CE370259111E400EE3F96 /* SentianceTest */,
+				180CE38F259111E800EE3F96 /* SentianceTestTests */,
+				180CE39A259111E800EE3F96 /* SentianceTestUITests */,
+				180CE36F259111E400EE3F96 /* Products */,
+				180CE3B5259191F100EE3F96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		180CE36F259111E400EE3F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180CE36E259111E400EE3F96 /* SentianceTest.app */,
+				180CE38C259111E800EE3F96 /* SentianceTestTests.xctest */,
+				180CE397259111E800EE3F96 /* SentianceTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180CE370259111E400EE3F96 /* SentianceTest */ = {
+			isa = PBXGroup;
+			children = (
+				18E52DFF2592417100429430 /* StatisticsCalculator */,
+				1864B6E32591F17300B17FF6 /* Models */,
+				188E50FD2591BAF500AE7737 /* ViewControllers */,
+				180CE3C02591B91600EE3F96 /* Views */,
+				180CE371259111E400EE3F96 /* AppDelegate.h */,
+				180CE372259111E500EE3F96 /* AppDelegate.m */,
+				180CE374259111E500EE3F96 /* SceneDelegate.h */,
+				180CE375259111E500EE3F96 /* SceneDelegate.m */,
+				180CE37A259111E500EE3F96 /* Main.storyboard */,
+				180CE380259111E700EE3F96 /* Assets.xcassets */,
+				180CE382259111E700EE3F96 /* LaunchScreen.storyboard */,
+				180CE385259111E700EE3F96 /* Info.plist */,
+				180CE386259111E700EE3F96 /* main.m */,
+				180CE37D259111E500EE3F96 /* SentianceTest.xcdatamodeld */,
+			);
+			path = SentianceTest;
+			sourceTree = "<group>";
+		};
+		180CE38F259111E800EE3F96 /* SentianceTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				180CE390259111E800EE3F96 /* SentianceTestTests.m */,
+				180CE392259111E800EE3F96 /* Info.plist */,
+			);
+			path = SentianceTestTests;
+			sourceTree = "<group>";
+		};
+		180CE39A259111E800EE3F96 /* SentianceTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				180CE39B259111E800EE3F96 /* SentianceTestUITests.m */,
+				180CE39D259111E800EE3F96 /* Info.plist */,
+			);
+			path = SentianceTestUITests;
+			sourceTree = "<group>";
+		};
+		180CE3B5259191F100EE3F96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180CE3B6259191F100EE3F96 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180CE3C02591B91600EE3F96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				180CE3C42591B92900EE3F96 /* GivePermissionView.xib */,
+				188E50F62591BA4600AE7737 /* GivePermissionView.h */,
+				188E50F12591BA3D00AE7737 /* GivePermissionView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1864B6E32591F17300B17FF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1864B6E42591F18C00B17FF6 /* SensorStatistics.h */,
+				1864B6E52591F19A00B17FF6 /* SensorStatistics.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		188E50FD2591BAF500AE7737 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				180CE377259111E500EE3F96 /* ViewController.h */,
+				180CE378259111E500EE3F96 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18E52DFF2592417100429430 /* StatisticsCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				18E52E002592419600429430 /* StatisticsCalculator.m */,
+				18E52E08259241A000429430 /* StatisticsCalculator.h */,
+			);
+			path = StatisticsCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180CE36D259111E400EE3F96 /* SentianceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180CE3A0259111E800EE3F96 /* Build configuration list for PBXNativeTarget "SentianceTest" */;
+			buildPhases = (
+				180CE36A259111E400EE3F96 /* Sources */,
+				180CE36B259111E400EE3F96 /* Frameworks */,
+				180CE36C259111E400EE3F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentianceTest;
+			productName = SentianceTest;
+			productReference = 180CE36E259111E400EE3F96 /* SentianceTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		180CE38B259111E800EE3F96 /* SentianceTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180CE3A3259111E800EE3F96 /* Build configuration list for PBXNativeTarget "SentianceTestTests" */;
+			buildPhases = (
+				180CE388259111E800EE3F96 /* Sources */,
+				180CE389259111E800EE3F96 /* Frameworks */,
+				180CE38A259111E800EE3F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180CE38E259111E800EE3F96 /* PBXTargetDependency */,
+			);
+			name = SentianceTestTests;
+			productName = SentianceTestTests;
+			productReference = 180CE38C259111E800EE3F96 /* SentianceTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180CE396259111E800EE3F96 /* SentianceTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180CE3A6259111E800EE3F96 /* Build configuration list for PBXNativeTarget "SentianceTestUITests" */;
+			buildPhases = (
+				180CE393259111E800EE3F96 /* Sources */,
+				180CE394259111E800EE3F96 /* Frameworks */,
+				180CE395259111E800EE3F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				180CE399259111E800EE3F96 /* PBXTargetDependency */,
+			);
+			name = SentianceTestUITests;
+			productName = SentianceTestUITests;
+			productReference = 180CE397259111E800EE3F96 /* SentianceTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180CE366259111E400EE3F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					180CE36D259111E400EE3F96 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					180CE38B259111E800EE3F96 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 180CE36D259111E400EE3F96;
+					};
+					180CE396259111E800EE3F96 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 180CE36D259111E400EE3F96;
+					};
+				};
+			};
+			buildConfigurationList = 180CE369259111E400EE3F96 /* Build configuration list for PBXProject "SentianceTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180CE365259111E400EE3F96;
+			productRefGroup = 180CE36F259111E400EE3F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180CE36D259111E400EE3F96 /* SentianceTest */,
+				180CE38B259111E800EE3F96 /* SentianceTestTests */,
+				180CE396259111E800EE3F96 /* SentianceTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180CE36C259111E400EE3F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CE384259111E700EE3F96 /* LaunchScreen.storyboard in Resources */,
+				180CE381259111E700EE3F96 /* Assets.xcassets in Resources */,
+				180CE3C52591B92900EE3F96 /* GivePermissionView.xib in Resources */,
+				180CE37C259111E500EE3F96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CE38A259111E800EE3F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CE395259111E800EE3F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180CE36A259111E400EE3F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188E50F22591BA3D00AE7737 /* GivePermissionView.m in Sources */,
+				180CE387259111E700EE3F96 /* main.m in Sources */,
+				1864B6E62591F19A00B17FF6 /* SensorStatistics.m in Sources */,
+				180CE37F259111E500EE3F96 /* SentianceTest.xcdatamodeld in Sources */,
+				180CE379259111E500EE3F96 /* ViewController.m in Sources */,
+				180CE373259111E500EE3F96 /* AppDelegate.m in Sources */,
+				18E52E012592419600429430 /* StatisticsCalculator.m in Sources */,
+				180CE376259111E500EE3F96 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CE388259111E800EE3F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CE391259111E800EE3F96 /* SentianceTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180CE393259111E800EE3F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180CE39C259111E800EE3F96 /* SentianceTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		180CE38E259111E800EE3F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180CE36D259111E400EE3F96 /* SentianceTest */;
+			targetProxy = 180CE38D259111E800EE3F96 /* PBXContainerItemProxy */;
+		};
+		180CE399259111E800EE3F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180CE36D259111E400EE3F96 /* SentianceTest */;
+			targetProxy = 180CE398259111E800EE3F96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180CE37A259111E500EE3F96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180CE37B259111E500EE3F96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180CE382259111E700EE3F96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180CE383259111E700EE3F96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180CE39E259111E800EE3F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180CE39F259111E800EE3F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180CE3A1259111E800EE3F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 856765453S;
+				INFOPLIST_FILE = SentianceTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiv.sentience.SentianceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180CE3A2259111E800EE3F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 856765453S;
+				INFOPLIST_FILE = SentianceTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiv.sentience.SentianceTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		180CE3A4259111E800EE3F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 856765453S;
+				INFOPLIST_FILE = SentianceTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiv.sentience.SentianceTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentianceTest.app/SentianceTest";
+			};
+			name = Debug;
+		};
+		180CE3A5259111E800EE3F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 856765453S;
+				INFOPLIST_FILE = SentianceTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiv.sentience.SentianceTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SentianceTest.app/SentianceTest";
+			};
+			name = Release;
+		};
+		180CE3A7259111E800EE3F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 856765453S;
+				INFOPLIST_FILE = SentianceTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiv.sentience.SentianceTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SentianceTest;
+			};
+			name = Debug;
+		};
+		180CE3A8259111E800EE3F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 856765453S;
+				INFOPLIST_FILE = SentianceTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiv.sentience.SentianceTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SentianceTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180CE369259111E400EE3F96 /* Build configuration list for PBXProject "SentianceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CE39E259111E800EE3F96 /* Debug */,
+				180CE39F259111E800EE3F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180CE3A0259111E800EE3F96 /* Build configuration list for PBXNativeTarget "SentianceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CE3A1259111E800EE3F96 /* Debug */,
+				180CE3A2259111E800EE3F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180CE3A3259111E800EE3F96 /* Build configuration list for PBXNativeTarget "SentianceTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CE3A4259111E800EE3F96 /* Debug */,
+				180CE3A5259111E800EE3F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180CE3A6259111E800EE3F96 /* Build configuration list for PBXNativeTarget "SentianceTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180CE3A7259111E800EE3F96 /* Debug */,
+				180CE3A8259111E800EE3F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		180CE37D259111E500EE3F96 /* SentianceTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				180CE37E259111E500EE3F96 /* SentianceTest.xcdatamodel */,
+			);
+			currentVersion = 180CE37E259111E500EE3F96 /* SentianceTest.xcdatamodel */;
+			path = SentianceTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 180CE366259111E400EE3F96 /* Project object */;
+}
