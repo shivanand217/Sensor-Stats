@@ -16,7 +16,7 @@ efficiency. Through comments will be much appreciated.
 Requirements :-
 ------------
 Sensor:
-● The app should sample accelerometer at 20 Hz (every 50 ms).
+* The app should sample accelerometer at 20 Hz (every 50 ms).
 
 #### The app should calculate the following features:
 
